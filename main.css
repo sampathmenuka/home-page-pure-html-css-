@@ -187,3 +187,10 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.desc{
+    text-align: justify;
+    font-size: 14px;
+    color: aliceblue;
+    padding: 2px;
+}
