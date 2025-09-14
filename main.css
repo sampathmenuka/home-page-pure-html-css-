@@ -108,6 +108,8 @@
     border: 1px solid green;
     height: 100%;
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .box-1{border: 1px solid yellow;}
@@ -117,7 +119,6 @@
 .box-top{
     height: 40%;
     width: 100%;
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -127,18 +128,35 @@
     width: 60px;
     height: 60px;
     border-radius: 100%;
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
 }
 
 .icon-outer-1{
-    border-color:rgb(60, 34, 32);
+    border-color:rgb(80, 28, 201);
 }
 
 .icon-outer-2{
-    border-color:rgb(255, 17, 0);
+    border-color:rgb(168, 82, 76);
 }
 
 .icon-outer-3{
-    border-color:rgb(0, 255, 13);
+    border-color:rgb(55, 134, 59);
+}
+
+.bottom-outer{
+    flex: 1;
+    width: 100%;
+}
+
+.b-o-1{
+    background-color:rgb(80, 28, 201);
+}
+
+.b-o-2{
+    background-color:rgb(168, 82, 76);
+}
+
+.b-o-3{
+    background-color:rgb(55, 134, 59);
 }
