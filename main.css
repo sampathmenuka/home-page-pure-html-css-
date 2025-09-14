@@ -107,8 +107,38 @@
     width: 30%;
     border: 1px solid green;
     height: 100%;
+    background-color: white;
 }
 
-.box-1{border: 3px solid yellow;}
-.box-2{border: 3px solid rgb(255, 0, 93);}
-.box-3{border: 3px solid rgb(0, 76, 255);}
+.box-1{border: 1px solid yellow;}
+.box-2{border: 1px solid rgb(255, 0, 93);}
+.box-3{border: 1px solid rgb(0, 76, 255);}
+
+.box-top{
+    height: 40%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-outer{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.icon-outer-1{
+    border-color:rgb(60, 34, 32);
+}
+
+.icon-outer-2{
+    border-color:rgb(255, 17, 0);
+}
+
+.icon-outer-3{
+    border-color:rgb(0, 255, 13);
+}
